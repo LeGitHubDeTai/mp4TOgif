@@ -1,0 +1,15 @@
+name: MP4 TO GIF
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  sending:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Discord notification
+      uses: LeGitHubDeTai/mp4TOgif@main
+      env:
+        inMP4: './video.mp4'
+        outGIF: './out.gif'

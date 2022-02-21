@@ -1,0 +1,26 @@
+{
+  "name": "mp4togif",
+  "version": "1.0.0",
+  "description": "Make a gif with a video in format MP4.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeGitHubDeTai/mp4TOgif.git"
+  },
+  "keywords": [
+    "gif, mp4, convert, creator, open-source"
+  ],
+  "author": "Tai Tetsuyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeGitHubDeTai/mp4TOgif/issues"
+  },
+  "homepage": "https://github.com/LeGitHubDeTai/mp4TOgif#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+name: "MP4 TO GIF"
+description: "Make a gif with a video in format MP4."
+author: "Tai Studio"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: circle
+  color: black
