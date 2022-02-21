@@ -8,7 +8,7 @@ jobs:
   sending:
     runs-on: ubuntu-latest
     steps:
-    - name: Discord notification
+    - name: Make a Gif
       uses: LeGitHubDeTai/mp4TOgif@main
       env:
         inMP4: './video.mp4'
