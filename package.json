@@ -23,6 +23,7 @@
     "child_process": "^1.0.2",
     "dotenv": "^16.0.0",
     "ffmpeg": "^0.0.4",
-    "ffmpeg-static": "^4.4.1"
+    "ffmpeg-static": "^4.4.1",
+    "fs": "^0.0.1-security"
   }
 }
