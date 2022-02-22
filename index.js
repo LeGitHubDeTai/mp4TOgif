@@ -6,7 +6,7 @@ var pathToFfmpeg = require('ffmpeg-static');
 dotenv.config();
 
 if(fs.existsSync(process.env.outGIF)){
-    fs.rm(process.env.outGIF, () => {console.log('done');});
+    fs.unlinkSync(process.env.outGIF);
 }
 
 child_process.exec(`${pathToFfmpeg} -i ${process.env.inMP4} ${process.env.outGIF}`, (err, stdout) => {
